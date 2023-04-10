@@ -1,0 +1,16 @@
+.feed {
+    text-align: center;
+ }
+ 
+ .post {
+    display: inline-block;
+    position: relative;
+ }
+ 
+ .post:nth-child(odd) {
+    float: left;
+ }
+ 
+ .post:nth-child(even) {
+    float: right;
+ }
